@@ -1,0 +1,131 @@
+body{
+    padding: 3%;
+    text-align: center;
+    background: url("greyzz.png"); /*(from http://subtlepatterns.com/) */
+}
+
+footer{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: #F5F3E0;
+    font-weight: bolder;
+}
+
+header{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    background-color: #F5F3E0;
+    font-weight: bold;
+}
+
+.main-page-unloged{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    background-color: white;
+}
+
+.main-page-loged{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    background-color: white;
+}
+
+.form-group{
+    padding: 3%;
+}
+
+.form-control{
+    margin: auto;
+}
+
+.text-field{
+    width: 30%;
+}
+
+#login{
+    width: 30%;
+}
+
+#pass{
+    width: 30%;
+}
+
+/*******************************************************************/
+
+.navbar {
+    cursor: pointer;
+}
+
+table table-striped {
+    text-align: center;
+}
+
+.lognote {
+    text-decoration: underline;
+}
+
+#id-edit {
+    width: 8%;
+}
+
+/****************************************************************************/
+/*menu - styles */
+#nav {
+    padding: 0%;
+    text-decoration: none;
+}
+        
+#nav_wraper {
+    width: 100%;
+    margin: 0 auto;     
+}
+        
+#nav ul{
+    list-style-type: none;
+    position: relative;
+}
+        
+#nav ul li {
+    display: inline-block;
+}
+        
+#nav ul li:hover {
+    cursor: pointer;
+}
+        
+#nav ul li a,visited {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+        
+#nav ul li a:hover{
+    text-decoration: none;
+}
+        
+#nav ul li:hover ul {
+    display: block;
+}
+        
+#nav ul ul {
+    display: none;
+    position: absolute;
+}
+        
+#nav ul ul li {
+    display: block;
+}
+/**********************************************************************/
+
+a {
+    cursor: pointer;
+    background-color: #000;
+}
+
+a, visited {
+    background-color: #000;
+}
